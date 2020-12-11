@@ -1260,6 +1260,7 @@ if __name__ == '__main__':
                 )
             multipart_uploaded_list = []
             logger.info('CLEAN FINISHED')
+            sys.exit(0)
         else:
             logger.info('You choose not to clean, now try to resume unfinished upload')
 
